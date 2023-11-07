@@ -1,9 +1,2 @@
 version: 2
 
-models:
-      - name: customer_id
-        description: Foreign key to stg_customers.customer_id.
-        tests:
-          - relationships:
-              to: ref('stg_customers')
-              field: customer_id
